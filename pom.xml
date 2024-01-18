@@ -60,7 +60,7 @@
     </dependencies>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <finalName>${project.name}.${project.version}</finalName>
     </properties>
 
