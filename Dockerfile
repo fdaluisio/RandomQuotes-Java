@@ -1,7 +1,7 @@
 # Build runtime image
 
 FROM openjdk:17-jdk-slim
-EXPOSE 80
+EXPOSE 8080
 WORKDIR /app
 COPY target/randomquotes.0.1.9.jar ./app.jar
 ENV SPRING_CONFIG_NAME=docker-application
